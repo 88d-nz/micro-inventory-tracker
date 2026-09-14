@@ -1380,6 +1380,6 @@ def not_found(e):
 
 if __name__ == '__main__':
     print("Starting Micro Inventory Tracker...")
-    print("Access the app at: http://localhost:5000")
+    print("Access the app at: http://localhost:8000")
     print("Press Ctrl+C to stop the server")
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=8000, debug=False)
